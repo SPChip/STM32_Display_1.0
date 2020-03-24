@@ -58,6 +58,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ST__35_RES_Pin GPIO_PIN_12
+#define ST__35_RES_GPIO_Port GPIOB
+#define ST7735_DC_Pin GPIO_PIN_13
+#define ST7735_DC_GPIO_Port GPIOB
+#define ST__35_CS_Pin GPIO_PIN_14
+#define ST__35_CS_GPIO_Port GPIOB
+#define ST7735_BL_Pin GPIO_PIN_15
+#define ST7735_BL_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
