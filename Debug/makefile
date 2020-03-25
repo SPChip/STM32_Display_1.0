@@ -40,8 +40,8 @@ STM32_Display_1.0.bin \
 all: STM32_Display_1.0.elf secondary-outputs
 
 # Tool invocations
-STM32_Display_1.0.elf: $(OBJS) $(USER_OBJS) C:\Users\Spike\STM32CubeIDE\workspace_1.3.0\STM32_Display_1.0\STM32F103C8TX_FLASH.ld
-	arm-none-eabi-gcc -o "STM32_Display_1.0.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Spike\STM32CubeIDE\workspace_1.3.0\STM32_Display_1.0\STM32F103C8TX_FLASH.ld" -Wl,-Map="STM32_Display_1.0.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32_Display_1.0.elf: $(OBJS) $(USER_OBJS) C:\Users\Сергей\STM32CubeIDE\workspace_1.3.0\STM32_Display_1.0\STM32F103C8TX_FLASH.ld
+	arm-none-eabi-gcc -o "STM32_Display_1.0.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Сергей\STM32CubeIDE\workspace_1.3.0\STM32_Display_1.0\STM32F103C8TX_FLASH.ld" -Wl,-Map="STM32_Display_1.0.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
